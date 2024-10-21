@@ -25,7 +25,7 @@ To get started with the Whiteboard Project, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/deepeshkulal/whiteboard-project.git
+   git clone https://github.com/deepeshkulal/whiteboard
    ```
 
 2. **Navigate to the Project Directory**:
