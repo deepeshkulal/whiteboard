@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiteboard Clone</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toolbar">
+            <i><b>Choose the color:</i><b></i>
+            <input type="color" id="colorPicker" />
+            <i><b>Set Marker size:</i><b></i>
+            <input type="range" id="brushSize" min="1" max="10" value="5">
+            <button id="clear"><b>Clear</b></button>
+        </div>
+    </nav>
+    <div class="canvas-container">
+        <canvas id="whiteboard"></canvas>
+    </div>
+    <div class="print-button">
+        <button onclick="takeScreenshot()"><b>Print</b></button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+</html>

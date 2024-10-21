@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #6A0DAD; /* Replace this with the exact purple from your Tic-Tac-Toe website */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.toolbar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.canvas-container {
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border-radius: 15px;
+    background: #ffffff;
+    cursor: crosshair;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.print-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.print-button button {
+    background-color: whitesmoke; 
+    color: #6A0DAD;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.print-button button:hover {
+    background-color: #5a0b9c; 
+    color: whitesmoke;
+}
+
+ 
+#clear
+{
+    background-color: #6A0DAD; 
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+#clear:hover{
+    background-color: whitesmoke;
+    color: #5a0b9c;
+}
+#eraser
+{
+    background-color: #6A0DAD; 
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+
